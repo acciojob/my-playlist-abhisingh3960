@@ -12,13 +12,11 @@ a{
 	text-decoration-line: none;
 }
 
-.lower{
-	background-color: rgb(255, 255, 255);
-	border: 1px solid black;
-	border-radius:5px;
-	padding:10px;
-}
-.video_1{
-	width:100%;
-	align-items:center;
-}
+  .player_one, .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+        }
